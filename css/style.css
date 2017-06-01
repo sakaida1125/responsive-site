@@ -39,12 +39,13 @@ img {
 
 /* Header
 ------------------------------------------------------------*/
-header .image {
+header .box {
+  background-image: url("../images/image.jpg");
+  height: 250px;
   width: 100%;
-  margin: 0;
-  padding: 0;
-  clear: both; }
-
+  background-size: cover;
+  background-position: center center;
+}
 
 /* Contents
 ------------------------------------------------------------*/
@@ -112,6 +113,16 @@ footer{
 }
 
 @media (min-width: 768px) {
+  /* Header
+  ------------------------------------------------------------*/
+  header .box {
+    background-image: url("../images/image.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+  }
+  
   /* Base
   ------------------------------------------------------------*/
   a:hover {
